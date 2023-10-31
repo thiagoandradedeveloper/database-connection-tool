@@ -67,7 +67,7 @@ con.config({file:'./config.json'})
     console.error(error);
 });
 
-# Arquivo config.json / Archive config.json
+## Arquivo config.json / Archive config.json
 {
     "dataBase":"myDB",
     "type":"SQLite"
