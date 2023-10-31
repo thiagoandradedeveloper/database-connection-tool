@@ -11,9 +11,5 @@
     "url": "git+https://github.com/thiagoandradedeveloper/database-connection-tool.git"
   },
   "author": "Thiago Andrade",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/thiagoandradedeveloper/database-connection-tool/issues"
-  },
-  "homepage": "https://github.com/thiagoandradedeveloper/database-connection-tool#readme"
+  "license": "MIT"
 }
