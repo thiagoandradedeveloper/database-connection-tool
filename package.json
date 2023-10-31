@@ -1,6 +1,6 @@
 {
   "name": "database-connection-tool",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Connection tool with multiple databases.",
   "main": "conexao.js",
   "scripts": {
