@@ -1,6 +1,6 @@
 {
   "name": "database-connection-tool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Connection tool with multiple databases.",
   "main": "conexao.js",
   "scripts": {
@@ -11,5 +11,11 @@
     "url": "git+https://github.com/thiagoandradedeveloper/database-connection-tool.git"
   },
   "author": "Thiago Andrade",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "mysql": "^2.18.1",
+    "pg": "^8.11.3",
+    "sqlite3": "^5.1.6"
+  }
 }
