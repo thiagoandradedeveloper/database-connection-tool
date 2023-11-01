@@ -1,7 +1,8 @@
    ////////////////////////////////////////////
-  ////// nodeConector ////////////////////////
- ////// Version 1.0  ////////////////////////
+  //////// Database Connection Tool //////////
+ ////////////// Version 1.0.5 ///////////////
 ////////////////////////////////////////////
+
 /*obs: usar somente no electron ou backend*/
 class Conection{
     
@@ -54,7 +55,6 @@ class Conection{
         });
       }
       if(this.type.toLowerCase() == 'mysql'){
-
         const mysql = require('mysql');
 
         //cria conexao
@@ -78,8 +78,6 @@ class Conection{
         });
       }      
       if(this.type.toLowerCase() == 'postgresql' || this.type.toLowerCase() == 'postgre'){
-
-        
         const Pool = require('pg').Pool;
         this.connection = new Pool({
             host: this.host,
@@ -89,8 +87,7 @@ class Conection{
             database: this.base
         });
 
-        return new Promise((resolve, reject) => {
-          
+        return new Promise((resolve, reject) => {          
           this.connection.connect((err, client, release) => {
             if (err) {
               console.error('Erro:', err);
